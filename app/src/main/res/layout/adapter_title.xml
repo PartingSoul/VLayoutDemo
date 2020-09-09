@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="#333333"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:text="热门菜谱" />
+
+    <TextView
+        android:id="@+id/tv_look_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/home_more"
+        android:drawablePadding="6dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="8dp"
+        android:text="更多"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+</LinearLayout>
